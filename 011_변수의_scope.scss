@@ -1,0 +1,16 @@
+// 클래스 안에 변수 선언
+.one{
+    // 지역 변수
+    $value:red;
+    color:$value;
+
+    .three{
+        // 여기에서 쓰면 에러가 나지 않음
+        background-color: $value;
+    }
+}
+
+// value는 지역변수기 때문에 여기에서 쓸 수 없다. 
+// .two{
+//     color:$value;
+// }

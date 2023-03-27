@@ -1,0 +1,10 @@
+$hojun: 5;
+//hojun이 1보다 큰 동안
+@while $hojun > 1 {
+    $hojun: $hojun - 1;
+    .content-#{$hojun} {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+    }
+}

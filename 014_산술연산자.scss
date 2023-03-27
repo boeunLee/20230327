@@ -1,0 +1,20 @@
+.one {
+    font-size: 10px + 10px;
+}
+
+.two {
+    font-size: 30px - 10px;
+}
+
+.three {
+    font-size: 10px * 2;
+}
+
+.four {
+    // 10px이라고 하면 결과가 2이기 때문에, 2px로 나오게 하기 위해 10이라고 해야됨
+    font-size: (20px / 10);
+}
+
+.five {
+    font-size: 8px % 3;
+}
